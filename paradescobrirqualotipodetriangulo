@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int lado1, lado2, lado3;
+
+Printf ("Digite o valor do primeiro lado do triangulo");
+scanf("%d", &lado1);
+Printf ("Digite o valor do segundo lado do triangulo");
+scanf("%d", &lado2);
+Printf ("Digite o valor do terceiro lado do triangulo");
+scanf("%d", &lado3);
+
+if (lado1 == lado2 && lado1 == lado3)
+printf ("O triangulo eh equilatero");
+if (lado1==lado2 && lado1!lado3 || lado1==lado3 && lado1|lado2)
+printf ("O triangulo eh isosceles");
+if (lado1!lado2 && lado1!lado3 || lado2!lado3 && lado3!lado2)
+printf (O triangulo eh escaleno");
+  
+
+  system("pause");
+    return 0;
+}
